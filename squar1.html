@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h1>javascript object</h1>
+<p>creating a javascript object</p>
+<p id="demo"></p>
+<script>
+function Stud(name, age, studentClass) {
+  this.name = name;
+  this.age = age;
+  this.studentClass = studentClass;
+}
+
+var student = new Stud("prajwal", 18, "computer science");
+document.getElementById("demo").innerHTML = student.name + " is " + student.age + " years old and he studies " + student.studentClass;
+</script>
+</body>
+</html>
